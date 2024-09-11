@@ -1,4 +1,5 @@
 import cardImg from "../../assert/IMG/cart.svg";
+import "./style.css";
 export default function Header() {
   return (
     <>
