@@ -1,4 +1,6 @@
 import computerImg from "../../assert/IMG/computer.png";
+import BtnComputador from "./BtnComputador";
+import BtnEletronico from "./BtnEletronico";
 import "./style.css";
 export default function ProdutoCard() {
   return (
@@ -19,8 +21,8 @@ export default function ProdutoCard() {
           culpa qui officia deserunt mollit anim id est laborum.
         </p>
         <div className="dsc-category-container">
-          <div className="dsc-category">Eletrônicos</div>
-          <div className="dsc-category">Computadores</div>
+          <BtnEletronico />
+          <BtnComputador />
         </div>
       </div>
     </div>
