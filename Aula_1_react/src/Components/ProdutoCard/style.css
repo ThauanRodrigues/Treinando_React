@@ -14,12 +14,13 @@
 
 .dsc-product-details-bottom h3 {
   color: var(--dsc-color-font-secondary);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .dsc-product-details-bottom h4 {
   color: var(--dsc-color-font-primary);
-  font-size: 12px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .dsc-product-details-bottom p {

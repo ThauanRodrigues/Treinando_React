@@ -1,12 +1,10 @@
 import "./App.css";
-import Header from "./Components/Header";
-import Catalog from "./routes/Catalog";
+import ProductDetails from "./routes/ProductDetails";
 
 function App() {
   return (
     <>
-      <Header />
-      <Catalog />
+      <ProductDetails />
     </>
   );
 }

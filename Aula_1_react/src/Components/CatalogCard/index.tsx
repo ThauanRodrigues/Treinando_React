@@ -1,5 +1,6 @@
 import computerImg from "../../assert/IMG/cart.svg";
 import "./style.css";
+
 export default function CatalogCard() {
   return (
     <div className="dsc-card">
